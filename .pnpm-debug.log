@@ -1,0 +1,308 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 warn pnpm": {
+    "message": "Unsupported engine: wanted: {\"node\":\">=16.0.0\"} (current: {\"node\":\"v14.19.3\",\"pnpm\":\"7.1.2\"})",
+    "prefix": "/Users/administrator/Desktop/tongtu/train_service"
+  },
+  "2 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "train_service",
+      "version": "1.0.0",
+      "description": "",
+      "private": true,
+      "egg": {
+        "declarations": true
+      },
+      "dependencies": {
+        "egg": "^2",
+        "egg-scripts": "^2"
+      },
+      "devDependencies": {
+        "autod": "^3",
+        "autod-egg": "^1",
+        "egg-bin": "^4",
+        "egg-ci": "^2",
+        "egg-mock": "^4",
+        "eslint": "^8",
+        "eslint-config-egg": "^12"
+      },
+      "engines": {
+        "node": ">=16.0.0"
+      },
+      "scripts": {
+        "start": "egg-scripts start --daemon --title=egg-server-train_service",
+        "stop": "egg-scripts stop --title=egg-server-train_service",
+        "dev": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod"
+      },
+      "ci": {
+        "version": "16",
+        "type": "github"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "",
+      "license": "MIT"
+    },
+    "prefix": "/Users/administrator/Desktop/tongtu/train_service"
+  },
+  "3 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/administrator/Library/pnpm/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/administrator/Desktop/tongtu/train_service/node_modules/.pnpm"
+  },
+  "4 debug pnpm:stage": {
+    "prefix": "/Users/administrator/Desktop/tongtu/train_service",
+    "stage": "resolution_started"
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.tencent.com/autod/3.1.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "autod",
+      "rawSpec": "^3"
+    }
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/autod/3.1.2",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "resolved"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.tencent.com/autod-egg/1.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "autod-egg",
+      "rawSpec": "^1"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/autod-egg/1.1.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "resolved"
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.tencent.com/eslint-config-egg/12.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-config-egg",
+      "rawSpec": "^12"
+    }
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/eslint-config-egg/12.0.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "resolved"
+  },
+  "11 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "mirrors.tencent.com/autod/3.1.2",
+    "size": 10261,
+    "status": "started"
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.tencent.com/egg-ci/2.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "egg-ci",
+      "rawSpec": "^2"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/egg-ci/2.1.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "resolved"
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.tencent.com/egg-scripts/2.17.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "egg-scripts",
+      "rawSpec": "^2"
+    }
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/egg-scripts/2.17.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "resolved"
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/autod/3.1.2",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "fetched"
+  },
+  "17 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "mirrors.tencent.com/autod-egg/1.1.0",
+    "size": 830,
+    "status": "started"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/autod-egg/1.1.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "fetched"
+  },
+  "19 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.tencent.com/eslint/8.21.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint",
+      "rawSpec": "^8"
+    }
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/eslint/8.21.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "resolved"
+  },
+  "21 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.tencent.com/egg/2.36.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "egg",
+      "rawSpec": "^2"
+    }
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/egg/2.36.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "resolved"
+  },
+  "23 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.tencent.com/egg-mock/4.2.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "egg-mock",
+      "rawSpec": "^4"
+    }
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/egg-mock/4.2.1",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "resolved"
+  },
+  "25 debug pnpm:_dependency_resolved": {
+    "resolution": "mirrors.tencent.com/egg-bin/4.20.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "egg-bin",
+      "rawSpec": "^4"
+    }
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/egg-bin/4.20.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "resolved"
+  },
+  "27 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "mirrors.tencent.com/eslint-config-egg/12.0.0",
+    "size": 21452,
+    "status": "started"
+  },
+  "28 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "mirrors.tencent.com/egg-ci/2.1.0",
+    "size": 5885,
+    "status": "started"
+  },
+  "29 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "mirrors.tencent.com/egg-scripts/2.17.0",
+    "size": 10902,
+    "status": "started"
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/egg-ci/2.1.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "fetched"
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/egg-scripts/2.17.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "fetched"
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/eslint-config-egg/12.0.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "fetched"
+  },
+  "33 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "mirrors.tencent.com/eslint/8.21.0",
+    "size": 516977,
+    "status": "started"
+  },
+  "34 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "mirrors.tencent.com/egg/2.36.0",
+    "size": 46109,
+    "status": "started"
+  },
+  "35 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "mirrors.tencent.com/egg-mock/4.2.1",
+    "size": 26204,
+    "status": "started"
+  },
+  "36 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "mirrors.tencent.com/egg-bin/4.20.0",
+    "size": 17727,
+    "status": "started"
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/egg-bin/4.20.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "fetched"
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/egg-mock/4.2.1",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "fetched"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/egg/2.36.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "fetched"
+  },
+  "40 debug pnpm:progress": {
+    "packageId": "mirrors.tencent.com/eslint/8.21.0",
+    "requester": "/Users/administrator/Desktop/tongtu/train_service",
+    "status": "fetched"
+  },
+  "41 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "egg-mysqll is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Basic c2Nk[hidden]",
+    "request": {
+      "authHeaderValue": "Basic c2NkZW5nOjJjYTZhMmRhZDRmYjExZWNiZTAxYzZkMTY5MDllNDU5",
+      "url": "https://mirrors.tencent.com/npm/egg-mysqll"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "egg-mysqll",
+    "spec": {
+      "fetchSpec": "latest",
+      "name": "egg-mysqll",
+      "type": "tag"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://mirrors.tencent.com/npm/egg-mysqll: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://mirrors.tencent.com/npm/egg-mysqll: Not Found - 404\n    at RetryOperation._fn (/Users/administrator/Library/pnpm/global/5/.pnpm/pnpm@7.1.2/node_modules/pnpm/dist/pnpm.cjs:84419:19)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}
