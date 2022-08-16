@@ -9,7 +9,7 @@ module.exports = () => {
    **/
   const config = exports = {
     authUrl: '',
-    platformId: 'map_train_dev',
+    platformId: '',
   };
 
   return {
